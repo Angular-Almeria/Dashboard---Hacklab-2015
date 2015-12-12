@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.centered-block {
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);        
+    color: #fff;
+    text-shadow: 0 0 5px #666;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.weather I {
+  display: inline-block;
+  font-size: 50px;
+}
+
+.data {
+  display: inline-block;
+}
+
+.temp {
+    font-size: 30px;
+    margin: 0;
+}
+
+.location {
+    margin: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.quote {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);    
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    display:  inline-block;
+    width:  auto;
+    background: rgba(0, 0, 0, 0.40);
+    padding: 10px;
+}
+
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="dashboard">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="lib/weather-icons/css/weather-icons.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div ui-view></div>
+
+
+<script src="lib/angular/angular.min.js"></script>
+<script src="lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+<script src="app/app.js"></script>
+
+<!-- CONTROLLERS -->
+<script src="app/controllers/main.controller.js"></script>
+
+<!-- SERVICES -->
+<script src="app/services/images.service.js"></script>
+<script src="app/services/weather.service.js"></script>
+<script src="app/services/quotes.service.js"></script>
+
+
+</body>
+</html>

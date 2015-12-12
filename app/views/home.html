@@ -1,0 +1,16 @@
+<div class="container" style="background: url('{{background}}') no-repeat center center; background-size: cover;">
+    <div class="centered-block">
+        <h1>{{time | date: 'HH:mm'}}</h1>
+        <div class="weather">
+            <i class="wi wi-yahoo-{{weather.code}}"></i>
+            <div class="data">
+                <p class="temp">{{weather.temp}}º {{weather.units}}</p>
+                <p class="location">{{weather.location}}</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <p class="quote">{{quote}}</p>
+</div>
