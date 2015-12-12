@@ -27,3 +27,9 @@ bower install --save angular
 ```
 
 Ya sólo nos queda crear nuestro archivo index.html e incluir la librería de Angular en el HTML.
+
+En el caso de utilizar la implementación de este repositorio, basta con clonarlo y en la linea de comandos ejecutar: 
+
+```
+bower install
+```
